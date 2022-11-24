@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">79135697456-msdgsurc2o8bb65ttpf99295o53cmgr5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://baitapck-1234b-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">79135697456</string>
+    <string name="google_api_key" translatable="false">AIzaSyDW-soXZafBS17_2URyLMWuqoqvvKhz228</string>
+    <string name="google_app_id" translatable="false">1:79135697456:android:2f366445280896f13f5bf5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDW-soXZafBS17_2URyLMWuqoqvvKhz228</string>
+    <string name="google_storage_bucket" translatable="false">baitapck-1234b.appspot.com</string>
+    <string name="project_id" translatable="false">baitapck-1234b</string>
+</resources>

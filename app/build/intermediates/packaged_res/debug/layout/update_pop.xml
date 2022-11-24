@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00BCD4"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1d89ad"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Update waterfruit"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Tên Nước"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColor="#E6BA3737"
+        android:id="@+id/edt_tenmonan"
+        android:textSize="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="350dp"
+        android:paddingLeft="10dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_gravity="center"
+        android:background="@drawable/reunded"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Giá Tiền"
+        android:textColor="#FFFF00"
+        android:textSize="20dp" />
+
+    <EditText
+        android:textSize="20dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="10dp"
+        android:textColor="#E6BA3737"
+        android:lines="1"
+        android:id="@+id/edt_giamonan"
+        android:ellipsize="end"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/reunded"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Chú Thích"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textSize="20dp"
+        android:textColor="#E6BA3737"
+        android:paddingTop="8dp"
+        android:paddingLeft="10dp"
+        android:lines="1"
+        android:id="@+id/edt_motamonan"
+        android:ellipsize="end"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/reunded"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_update"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/reunded"
+        android:backgroundTint="#03A9F4"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
